@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f7f7f7d7;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #ffff00;
+  color: #000000;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+header p {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.contact-info p {
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+section {
+  margin: 40px 0;
+}
+
+section h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skills .skill-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.skill {
+  flex: 1 1 calc(50% - 20px);
+  margin-bottom: 20px;
+}
+
+.skill p {
+  font-weight: 600;
+}
+
+.bar {
+  background-color: #ddd;
+  height: 12px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 9.9px;
+}
+
+.progress {
+  height: 100%;
+  border-radius: 5px;
+  color: #fff;
+  text-align: right;
+  padding-right: 8px;
+  line-height: 13.3px;
+}
+
+.html {
+  width: 90%;
+  background-color: #e44d26;
+}
+
+.css {
+  width: 85%;
+  background-color: #1572b6;
+}
+
+.javascript {
+  width: 75%;
+  background-color: #f0db4f;
+  color: #333;
+}
+
+.react {
+  width: 70%;
+  background-color: #61dafb;
+}
+
+.experience .job,
+.projects .project {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.job h3,
+.project h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.job h4,
+.project h4 {
+  font-size: 1.2em;
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+#tag_line {
+  font-size: 0.8em;
+  color: rgb(255, 0, 0);
+}
+.job p,
+.project p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.contact-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 0.9em;
+}
